@@ -94,11 +94,11 @@ public class TableRenderer extends AbstractRenderer {
      */
     protected boolean isOriginalNonSplitRenderer = true;
     TableBorders bordersHandler;
-    private float[] columnWidths = null;
-    private List<Float> heights = new ArrayList<>();
-    private float[] countedColumnWidth = null;
-    private float totalWidthForColumns;
-    private float topBorderMaxWidth;
+    protected float[] columnWidths = null;
+    protected List<Float> heights = new ArrayList<>();
+    protected float[] countedColumnWidth = null;
+    protected float totalWidthForColumns;
+    protected float topBorderMaxWidth;
 
     private TableRenderer() {
     }
