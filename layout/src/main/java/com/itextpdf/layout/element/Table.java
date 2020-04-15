@@ -72,9 +72,9 @@ public class Table extends BlockElement<Table> implements ILargeElement {
 
     protected DefaultAccessibilityProperties tagProperties;
 
-    private List<Cell[]> rows;
+    public List<Cell[]> rows;
 
-    private UnitValue[] columnWidths;
+    public UnitValue[] columnWidths;
     private int currentColumn = 0;
     private int currentRow = -1;
     private Table header;
@@ -87,7 +87,7 @@ public class Table extends BlockElement<Table> implements ILargeElement {
     // For large tables we might contain only a few rows, not all of them, other ones might have been flushed.
     private int rowWindowStart = 0;
     private Document document;
-    private Cell[] lastAddedRow;
+    public Cell[] lastAddedRow;
     private Div caption;
 
     /**
