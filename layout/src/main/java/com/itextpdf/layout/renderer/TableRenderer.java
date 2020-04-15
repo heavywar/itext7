@@ -92,9 +92,9 @@ public class TableRenderer extends AbstractRenderer {
      */
     protected boolean isOriginalNonSplitRenderer = true;
     private float[] columnWidths = null;
-    private List<Float> heights = new ArrayList<>();
+    public List<Float> heights = new ArrayList<>();
 
-    private float[] countedColumnWidth = null;
+    public float[] countedColumnWidth = null;
     private float totalWidthForColumns;
 
     private float topBorderMaxWidth;
